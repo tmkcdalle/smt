@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.add-to-cart {
+  background-color: white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  /* Make it stick to the bottom */
+  position: fixed;
+  bottom: 1px;
+  z-index: 1000;
+}
+
+.select-size {
+  gap: 10px;
+}
+
+.price-prod {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.two-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.aspect-square {
+  padding: -10px;
+  border-radius: 30%;
+}
+
+.mkcfocus:focus {
+  color: white;
+  background-color: #b90091;
+}
