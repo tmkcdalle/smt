@@ -10,6 +10,7 @@ import Checkout from "./Pages/Checkout";
 import "./tw.css";
 import Payment from "./Pages/Payment";
 import ThirdProd from "./Pages/ProductPages/ThirdProd";
+import fourth from "./Pages/ProductPages/fourth";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/prod1" element={<FirstProd />} />
           <Route path="/prod3" element={<ThirdProd />} />
+          <Route path="/prod4" element={<fourth />} />
+
           <Route path="/address" element={<Address />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/payment" element={<Payment />} />

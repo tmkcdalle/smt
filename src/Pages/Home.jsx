@@ -50,7 +50,7 @@ const Home = () => {
       link: "/prod2",
     },
     {
-      id: 2,
+      id: 3,
       name: "Elegant Red Dress",
       price: 299,
       originalPrice: 999,
@@ -60,6 +60,18 @@ const Home = () => {
       reviews: "15,432",
       delivery: "Free delivery",
       link: "/prod2",
+    },
+    {
+      id: 4,
+      name: "kuch bhi",
+      price: 299,
+      originalPrice: 999,
+      image:
+        "https://adminme.lifefashiondream.com/wp-content/uploads/2024/04/3.jpg",
+      rating: 4.2,
+      reviews: "15,432",
+      delivery: "Free delivery",
+      link: "/prod4",
     },
   ];
 
